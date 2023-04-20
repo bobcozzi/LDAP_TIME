@@ -1,7 +1,10 @@
 # LDAP_TIME
 Convert TIMESAMP string to Win32 LDAP FILETIME integer using RPG IV
+
            //  Program: LDAP_TIME
+           
            //  Author:      R. Cozzi, Jr. (c) 2023 All rights reserved.
+           
            //  Description: Convert a timestamp string
            //               to Win32 LDAP FILETIME integer
            //               That is, the number of nano-seconds
