@@ -11,7 +11,7 @@
            //  Parameters:
            //               RETURN VALUE  INT(20) (8-byte LDAP time integer)
            //               IN timestamp as a string CHAR(20)
-           //                   FMT must be YYYY-MM-DD HH.MM.SS with 24-hour clock
+           //                   FMT must be YYYY-MM-DD-HH.MM.SS with 24-hour clock
            //               IN TimeZone of input timestamp DFT('UTC')
            //                   Choices are: 'LOCAL' or DFT('UTC')
            //                   When 'LOCAL' is specified, input timestamp
