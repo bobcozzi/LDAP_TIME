@@ -47,9 +47,9 @@
            dcl-s LDAP_EPOC_SECS uns(20);
            dcl-s USER_TS_SECS   uns(20);
 
-           dcl-s TS_FMT        char(22) inz('YYYY-MM-DD HH24.MI.SS');
-           dcl-s CEE_DTS_FMT   char(20) inz('YYYY-MM-DD HH.MI.SS');
-           dcl-s LDAP_EPOC_DTS char(20) inz('1601-01-01 00.00.00');
+           dcl-s TS_FMT        char(22) inz('YYYY-MM-DD-HH24.MI.SS');
+           dcl-s CEE_DTS_FMT   char(20) inz('YYYY-MM-DD-HH.MI.SS');
+           dcl-s LDAP_EPOC_DTS char(20) inz('1601-01-01-00.00.00');
 
            dcl-S TIMEZONE   varchar(10);
            dcl-s ts_string  char(26);
